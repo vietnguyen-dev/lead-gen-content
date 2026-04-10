@@ -1,8 +1,8 @@
 interface iHomeHero {
-  heading: string;
-  subHeading: string;
+  title: string;
+  subTitle: string;
   badges: string[];
-  primaryCta: string;
+  primaryCTA: string;
   formHeading: string;
   formSubHeading: string;
   formButton: string;

@@ -1,9 +1,9 @@
-export interface iFAQItem {
+interface iFAQItem {
   question: string;
   answer: string;
 }
 
-export interface iFAQCategory {
+interface iFAQCategory {
   title: string;
   description?: string;
   items: iFAQItem[];
