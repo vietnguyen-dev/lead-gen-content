@@ -1,50 +1,50 @@
-export interface iHomeHero {
-  eyebrow: string;
+interface iHomeHero {
+  heading: string;
+  subHeading: string;
+  badges: string[];
+  primaryCta: string;
+  formHeading: string;
+  formSubHeading: string;
+  formButton: string;
+}
+
+interface iSteps {
+  stepTitle: string;
+  description: string;
+}
+
+interface iHomeSteps {
+  title: string;
+  steps: iSteps[];
+  formButton: string;
+}
+
+interface iFAQ {
+  question: string;
+  answer: string;
+}
+
+interface iHomeFAQ {
+  title: string;
+  description: string;
+  faq: iFAQ[];
+}
+
+interface iHomeCTA {
   heading: string;
   subHeading: string;
   primaryCta: string;
-  secondaryCta?: string;
   formHeading: string;
   formSubHeading: string;
-}
-
-export interface iHomeBenefit {
-  title: string;
-  description: string;
-}
-
-export interface iHomeStep {
-  title: string;
-  description: string;
-}
-
-export interface iHomeTestimonial {
-  quote: string;
-  author: string;
-  location?: string;
-}
-
-export interface iHomeFaqPreview {
-  question: string;
-  answer: string;
+  formButton: string;
 }
 
 export interface iHome {
   seoTitle: string;
   seoDescription: string;
+  offerButton: string;
   hero: iHomeHero;
-  trustBadges: string[];
-  benefitsHeading: string;
-  benefits: iHomeBenefit[];
-  processHeading: string;
-  process: iHomeStep[];
-  serviceAreasHeading: string;
-  serviceAreas: string[];
-  testimonialsHeading: string;
-  testimonials: iHomeTestimonial[];
-  faqHeading: string;
-  faqPreview: iHomeFaqPreview[];
-  finalCtaHeading: string;
-  finalCtaSubHeading: string;
-  finalCtaButton: string;
+  steps: iHomeSteps;
+  FAQ: iHomeFAQ[];
+  CTA: iHomeCTA;
 }
