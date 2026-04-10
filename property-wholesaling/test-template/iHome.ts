@@ -8,6 +8,12 @@ interface iHomeHero {
   formButton: string;
 }
 
+interface iHomeReasons {
+  title: string;
+  description: string;
+  reasons: string[];
+  formButton: string;
+}
 interface iSteps {
   stepTitle: string;
   description: string;
@@ -28,6 +34,7 @@ interface iHomeFAQ {
   title: string;
   description: string;
   faq: iFAQ[];
+  formButton: string;
 }
 
 interface iHomeCTA {
@@ -45,6 +52,7 @@ export interface iHome {
   offerButton: string;
   hero: iHomeHero;
   steps: iHomeSteps;
+  reasons: iHomeReasons;
   FAQ: iHomeFAQ[];
   CTA: iHomeCTA;
 }
