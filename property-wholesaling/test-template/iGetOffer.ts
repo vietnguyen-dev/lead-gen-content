@@ -6,3 +6,8 @@ export interface iOfferForm {
   zip: number;
   reason: string;
 }
+
+export interface iOfferPage {
+  title: string;
+  description: string;
+}
