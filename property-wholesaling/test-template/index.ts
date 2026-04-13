@@ -1,4 +1,5 @@
 export { buymyhousepdx } from './buymyhousepdx.com';
+export { portlandpropertybuyers } from './portlandpropertybuyers.com';
 
 export type { iAbout } from './iAbout';
 export type { iContact } from './iContact';
