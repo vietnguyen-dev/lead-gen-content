@@ -1,0 +1,35 @@
+{
+  "name": "lead-gen-content-test-template",
+  "version": "1.0.0",
+  "description": "TypeScript content templates for lead generation real estate sites.",
+  "license": "ISC",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "*.ts",
+    "buymyhousepdx.com",
+    "portlandpropertybuyers.com"
+  ],
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "default": "./index.ts"
+    },
+    "./buymyhousepdx.com": {
+      "types": "./buymyhousepdx.com/index.ts",
+      "default": "./buymyhousepdx.com/index.ts"
+    },
+    "./portlandpropertybuyers.com": {
+      "types": "./portlandpropertybuyers.com/index.ts",
+      "default": "./portlandpropertybuyers.com/index.ts"
+    }
+  },
+  "keywords": [
+    "typescript",
+    "real-estate",
+    "lead-generation",
+    "content"
+  ]
+}
