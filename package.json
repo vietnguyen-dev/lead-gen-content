@@ -2,7 +2,26 @@
   "name": "lead-gen-content",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": {
+      "types": "./index.ts",
+      "default": "./index.ts"
+    },
+    "./test-template": {
+      "types": "./property-wholesaling/test-template/index.ts",
+      "default": "./property-wholesaling/test-template/index.ts"
+    },
+    "./test-template/buymyhousepdx.com": {
+      "types": "./property-wholesaling/test-template/buymyhousepdx.com/index.ts",
+      "default": "./property-wholesaling/test-template/buymyhousepdx.com/index.ts"
+    },
+    "./test-template/portlandpropertybuyers.com": {
+      "types": "./property-wholesaling/test-template/portlandpropertybuyers.com/index.ts",
+      "default": "./property-wholesaling/test-template/portlandpropertybuyers.com/index.ts"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
