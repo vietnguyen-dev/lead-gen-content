@@ -27,6 +27,30 @@ In practice, that means:
 
 ## Development
 
-The project uses npm package conventions and is configured as a JavaScript module package through `package.json`.
+Install dependencies and run the package checks before publishing:
+
+```sh
+npm install
+npm test
+npm pack --dry-run
+```
+
+The package compiles TypeScript source files into `dist/` and publishes the compiled JavaScript plus declaration files. The `prepack` script runs the build automatically before `npm pack` or `npm publish`.
+
+## Installation
+
+```sh
+npm install lead-gen-content
+```
+
+## Usage
+
+```ts
+import { testTemplate } from "lead-gen-content";
+import buymyhousepdx from "lead-gen-content/test-template/buymyhousepdx.com";
+
+console.log(testTemplate.portlandpropertybuyers.home.seoTitle);
+console.log(buymyhousepdx.contact);
+```
 
 As the codebase evolves, this package can be expanded with implementation code, exports, build tooling, and release workflows appropriate for the wider lead generation platform.

@@ -1,15 +1,15 @@
-import { buymyhousepdx } from "./buymyhousepdx.com";
-import { portlandpropertybuyers } from "./portlandpropertybuyers.com";
+import { buymyhousepdx } from "./buymyhousepdx.com/index.js";
+import { portlandpropertybuyers } from "./portlandpropertybuyers.com/index.js";
 
 const testTemplate = {
   buymyhousepdx: buymyhousepdx,
   portlandpropertybuyers: portlandpropertybuyers,
 };
 
-export type { iAbout } from "./iAbout";
-export type { iContact } from "./iContact";
-export type { iFAQ } from "./iFAQ";
-export type { iHome } from "./iHome";
-export type { iOfferForm, iOfferPage } from "./iGetOffer";
+export type { iAbout } from "./iAbout.js";
+export type { iContact } from "./iContact.js";
+export type { iFAQ } from "./iFAQ.js";
+export type { iHome } from "./iHome.js";
+export type { iOfferForm, iOfferPage } from "./iGetOffer.js";
 
 export default testTemplate;

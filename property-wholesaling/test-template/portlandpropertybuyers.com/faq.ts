@@ -1,4 +1,4 @@
-import type { iFAQ } from '../iFAQ';
+import type { iFAQ } from "../iFAQ.js";
 
 const faq: iFAQ = {
   seoTitle: 'Portland Property Buyers FAQ | Sell A House Fast In Portland',

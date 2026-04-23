@@ -1,4 +1,4 @@
-import { iOfferPage } from "../iGetOffer";
+import type { iOfferPage } from "../iGetOffer.js";
 
 const offerForm: iOfferPage = {
   title: "Get your free cash offer",

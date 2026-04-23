@@ -1,4 +1,4 @@
-import type { iAbout } from '../iAbout';
+import type { iAbout } from "../iAbout.js";
 
 export const about: iAbout = {
   seoTitle: 'About Portland Property Buyers | Portland Home Buyer Team',
@@ -16,6 +16,33 @@ export const about: iAbout = {
     heading: 'What We Focus On',
     description:
       'Some properties are better suited for a direct sale than a traditional listing. We work with homeowners dealing with repairs, inherited property, landlord fatigue, foreclosure pressure, divorce, relocation, or other situations where speed and simplicity matter.',
+    formButton: 'Review My Options',
+  },
+  howWeWork: {
+    heading: 'How We Help Portland Sellers',
+    subHeading:
+      'We keep the process direct, local, and focused on the seller timeline.',
+    steps: [
+      {
+        id: 1,
+        title: 'Share The Situation',
+        description:
+          'Tell us about the property, condition, and what you need from the sale.',
+      },
+      {
+        id: 2,
+        title: 'Compare Buyer Options',
+        description:
+          'We review possible investor interest for the property and prepare the next-step details.',
+      },
+      {
+        id: 3,
+        title: 'Choose A Path',
+        description:
+          'You decide whether the available terms and timeline work for your goals.',
+      },
+    ],
+    formButton: 'Start My Review',
   },
   CTA: {
     heading: 'See What Your Portland Property Could Be Worth',

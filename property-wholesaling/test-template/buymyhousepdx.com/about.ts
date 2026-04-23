@@ -1,4 +1,4 @@
-import type { iAbout } from '../iAbout';
+import type { iAbout } from "../iAbout.js";
 
 export const about: iAbout = {
   seoTitle: 'About Buy My House PDX | Local Portland Home Buyer',
@@ -16,6 +16,33 @@ export const about: iAbout = {
     heading: 'Why We Started',
     description:
       'Many homeowners do not need a traditional listing. They need a faster way to find serious local investors when a property has repairs, inherited complications, problem tenants, foreclosure pressure, or a tight relocation timeline. Buy My House PDX was built to make those connections easier, with honest communication and a straightforward process.',
+    formButton: 'Review My Options',
+  },
+  howWeWork: {
+    heading: 'How We Work With Sellers',
+    subHeading:
+      'Our process is designed to keep the next step clear from the first conversation through closing.',
+    steps: [
+      {
+        id: 1,
+        title: 'Understand The Property',
+        description:
+          'We gather the address, condition, and sale timeline so we can understand what kind of buyer may fit.',
+      },
+      {
+        id: 2,
+        title: 'Review Investor Interest',
+        description:
+          'We look for local investor options that match the property and the seller situation.',
+      },
+      {
+        id: 3,
+        title: 'Discuss The Next Step',
+        description:
+          'You can review any available options and decide whether a direct sale makes sense.',
+      },
+    ],
+    formButton: 'Start The Process',
   },
   CTA: {
     heading: 'See What Your Portland House Could Sell For',

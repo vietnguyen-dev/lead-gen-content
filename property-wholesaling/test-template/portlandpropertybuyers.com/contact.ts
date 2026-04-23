@@ -1,4 +1,4 @@
-import type { iContact } from '../iContact';
+import type { iContact } from "../iContact.js";
 
 const contact: iContact = {
   seoTitle: 'Contact Portland Property Buyers | Request An Offer',

@@ -1,4 +1,4 @@
-export { default as testTemplate } from "./property-wholesaling/test-template";
+export { default as testTemplate } from "./property-wholesaling/test-template/index.js";
 export type {
   iAbout,
   iContact,
@@ -6,4 +6,4 @@ export type {
   iHome,
   iOfferForm,
   iOfferPage,
-} from "./property-wholesaling/test-template";
+} from "./property-wholesaling/test-template/index.js";

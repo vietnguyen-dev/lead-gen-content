@@ -1,8 +1,8 @@
-import about from './about';
-import contact from './contact';
-import faq from './faq';
-import getOffer from './get-offer';
-import home from './home';
+import about from "./about.js";
+import contact from "./contact.js";
+import faq from "./faq.js";
+import getOffer from "./get-offer.js";
+import home from "./home.js";
 
 export const portlandpropertybuyers = {
   about,

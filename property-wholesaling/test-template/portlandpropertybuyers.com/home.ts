@@ -1,4 +1,4 @@
-import type { iHome } from '../iHome';
+import type { iHome } from "../iHome.js";
 
 export const home: iHome = {
   seoTitle: 'Sell Your House Fast In Portland | Portland Property Buyers',

@@ -1,32 +1,45 @@
 {
-  "name": "lead-gen-content",
+  "name": "@vietnguyen-dev/lead-gen-content",
   "version": "1.0.0",
-  "description": "",
-  "main": "./index.ts",
-  "types": "./index.ts",
+  "description": "Reusable content templates and types for lead generation websites.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "types": "./index.ts",
-      "default": "./index.ts"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     },
     "./test-template": {
-      "types": "./property-wholesaling/test-template/index.ts",
-      "default": "./property-wholesaling/test-template/index.ts"
+      "types": "./dist/property-wholesaling/test-template/index.d.ts",
+      "import": "./dist/property-wholesaling/test-template/index.js"
     },
     "./test-template/buymyhousepdx.com": {
-      "types": "./property-wholesaling/test-template/buymyhousepdx.com/index.ts",
-      "default": "./property-wholesaling/test-template/buymyhousepdx.com/index.ts"
+      "types": "./dist/property-wholesaling/test-template/buymyhousepdx.com/index.d.ts",
+      "import": "./dist/property-wholesaling/test-template/buymyhousepdx.com/index.js"
     },
     "./test-template/portlandpropertybuyers.com": {
-      "types": "./property-wholesaling/test-template/portlandpropertybuyers.com/index.ts",
-      "default": "./property-wholesaling/test-template/portlandpropertybuyers.com/index.ts"
+      "types": "./dist/property-wholesaling/test-template/portlandpropertybuyers.com/index.d.ts",
+      "import": "./dist/property-wholesaling/test-template/portlandpropertybuyers.com/index.js"
     }
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build",
+    "prepack": "npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "lead-generation",
+    "content",
+    "templates"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }

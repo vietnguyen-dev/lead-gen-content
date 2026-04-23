@@ -1,4 +1,4 @@
-import type { iFAQ } from "../iFAQ";
+import type { iFAQ } from "../iFAQ.js";
 
 const faq: iFAQ = {
   seoTitle: "Portland Home Seller FAQ | Buy My House PDX",
