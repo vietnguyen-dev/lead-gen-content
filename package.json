@@ -1,5 +1,5 @@
 {
-  "name": "@vietnguyen-dev/lead-gen-content",
+  "name": "@keith-chen/lead-gen-content",
   "version": "1.0.0",
   "description": "Reusable content templates and types for lead generation websites.",
   "main": "./dist/index.js",
