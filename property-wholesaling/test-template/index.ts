@@ -1,7 +1,12 @@
 import { buymyhousepdx } from "./buymyhousepdx.com/index.js";
 import { portlandpropertybuyers } from "./portlandpropertybuyers.com/index.js";
 
-const testTemplate = {
+export interface TestTemplate {
+  buymyhousepdx: typeof buymyhousepdx;
+  portlandpropertybuyers: typeof portlandpropertybuyers;
+}
+
+const testTemplate: TestTemplate = {
   buymyhousepdx: buymyhousepdx,
   portlandpropertybuyers: portlandpropertybuyers,
 };
