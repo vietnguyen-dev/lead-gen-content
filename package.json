@@ -1,6 +1,6 @@
 {
   "name": "@keith-chen/lead-gen-content",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable content templates and types for lead generation websites.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
