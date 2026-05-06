@@ -18,6 +18,8 @@ export const home: iHome = {
   },
   steps: {
     title: 'How It Works',
+    description:
+      'Our process is meant to be simple so Portland homeowners can review their options without repairs, showings, or extra hassle.',
     steps: [
       {
         stepTitle: 'Tell Us About The Property',
@@ -48,6 +50,33 @@ export const home: iHome = {
       'Save time instead of calling buyers one by one',
     ],
     formButton: 'See My Options',
+  },
+  prosAndCons: {
+    title: 'Pros And Cons',
+    description: 'Review the tradeoffs before you choose a path.',
+    prosTitle: 'Pros',
+    pros: [
+      'Avoid repairs and cleanup',
+      'Skip open houses and showings',
+      'Move faster on a short timeline',
+      'See buyer interest before listing',
+      'Make selling a distressed home simpler',
+    ],
+    consTitle: 'Cons',
+    cons: [
+      'Offers may be lower than listing',
+      'Some sellers may do better with an agent',
+      'Not every property is a fit',
+      'You still need to compare your options',
+      'Buyer terms can differ',
+    ],
+    formButton: 'Help Me Compare',
+  },
+  quickContact: {
+    title: 'Want To Talk First?',
+    subHeading:
+      'Reach out with a quick question if you want to speak with someone before filling out the full form.',
+    button: 'Contact Us',
   },
   FAQ: [
     {

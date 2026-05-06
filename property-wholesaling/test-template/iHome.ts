@@ -21,8 +21,25 @@ interface iSteps {
 
 interface iHomeSteps {
   title: string;
+  description: string;
   steps: iSteps[];
   formButton: string;
+}
+
+interface iHomeProsAndCons {
+  title: string;
+  description: string;
+  prosTitle: string;
+  pros: string[];
+  consTitle: string;
+  cons: string[];
+  formButton: string;
+}
+
+interface iHomeQuickContact {
+  title: string;
+  subHeading: string;
+  button: string;
 }
 
 interface iFAQ {
@@ -53,6 +70,8 @@ export interface iHome {
   hero: iHomeHero;
   steps: iHomeSteps;
   reasons: iHomeReasons;
+  prosAndCons: iHomeProsAndCons;
+  quickContact: iHomeQuickContact;
   FAQ: iHomeFAQ[];
   CTA: iHomeCTA;
 }
