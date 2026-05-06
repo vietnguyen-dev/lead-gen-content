@@ -3,17 +3,17 @@ import type { iHome } from "../iHome.js";
 export const home: iHome = {
   seoTitle: 'Sell Your House Fast In Portland | Portland Property Buyers',
   seoDescription:
-    'Explore direct-sale options with Portland-area investors. Portland Property Buyers helps homeowners sell as-is without repairs, showings, or listing fees.',
+    'We help Portland homeowners connect with local cash buyers. Sell as-is with no repairs, showings, or listing fees.',
   offerButton: 'Get My Offer',
   hero: {
     title: 'Sell Your Portland House Without Repairs Or Showings',
     subTitle:
-      'We help Portland-area homeowners connect with local investors who buy houses as-is and can close on a flexible timeline.',
+      'We help Portland homeowners connect with local buyers who can buy homes as-is.',
     badges: ['Sell As-Is', 'No Agent Fees', 'Close On Your Schedule'],
     primaryCTA: 'Request My Offer',
-    formHeading: 'Get Your No-Obligation Offer',
+    formHeading: 'Get Your Free Offer',
     formSubHeading:
-      'Share a few details about the property and we will review possible investor options.',
+      'Share a few details about the house and we will review your options.',
     formButton: 'See My Offer',
   },
   steps: {
@@ -22,17 +22,17 @@ export const home: iHome = {
       {
         stepTitle: 'Share The Property Details',
         description:
-          'Tell us about the address, condition, and your timeline so we can review the situation.',
+          'Tell us the address, condition, and your timeline.',
       },
       {
         stepTitle: 'Review Investor Interest',
         description:
-          'We evaluate the property and connect you with Portland-area investors who may want to buy it.',
+          'We review the home and look for local buyers who may want it.',
       },
       {
         stepTitle: 'Choose What Works For You',
         description:
-          'If an offer makes sense, you can move ahead on terms and a closing date that fit your needs.',
+          'If you like the offer, you choose what works best for you.',
       },
     ],
     formButton: 'Start My Offer',
@@ -40,12 +40,12 @@ export const home: iHome = {
   reasons: {
     title: 'Why Homeowners Reach Out To Us',
     description:
-      'We help sellers who want a direct path to investor buyers without managing the search themselves.',
+      'We make it easier to find local cash buyers.',
     reasons: [
-      'Explore offers for inherited, vacant, distressed, or rental properties',
-      'Avoid repairs, staging, open houses, and listing prep before reviewing options',
-      'Get help with situations involving probate, tenants, divorce, relocation, or foreclosure pressure',
-      'Work with a local Portland-focused team instead of contacting buyers one by one',
+      'Look at offers for inherited, empty, damaged, or rental homes',
+      'Skip repairs, staging, open houses, and listing prep',
+      'Get help with probate, tenants, divorce, moving, or foreclosure',
+      'Work with one local team instead of calling buyers one by one',
     ],
     formButton: 'Review My Options',
   },
@@ -53,22 +53,22 @@ export const home: iHome = {
     {
       title: 'Common Questions',
       description:
-        'Straight answers about selling your Portland property to an investor.',
+        'Simple answers about selling your Portland house.',
       faq: [
         {
           question: 'Do I need to repair the house first?',
           answer:
-            'No. Many investors prefer to buy properties in current condition, including houses that need updates, cleanup, or major repairs.',
+            'No. Many buyers will buy homes as-is, even if they need updates or repairs.',
         },
         {
           question: 'How soon could I close?',
           answer:
-            'Some direct sales can close within 7 to 21 days, depending on the property and the buyer.',
+            'Some sales can close in 7 to 21 days. It depends on the home and the buyer.',
         },
         {
           question: 'Are there commissions or closing surprises?',
           answer:
-            'There are no listing commissions through our service, and you can review any proposed terms before deciding whether to move forward.',
+            'There are no listing fees through our service, and you can review the offer before you decide.',
         },
       ],
       formButton: 'Ask A Question',
@@ -77,11 +77,11 @@ export const home: iHome = {
   CTA: {
     heading: 'Ready To Explore A Portland Cash Offer?',
     subHeading:
-      'Tell us about the property and we will review the next-step options with local investors.',
+      'Tell us about the house and we will review your next steps.',
     primaryCta: 'Request My Offer',
     formHeading: 'Start With Your Property Address',
     formSubHeading:
-      'We will review the home details and follow up quickly.',
+      'We will review the details and follow up soon.',
     formButton: 'Get Started',
   },
 };

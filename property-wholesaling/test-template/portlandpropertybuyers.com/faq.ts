@@ -3,47 +3,47 @@ import type { iFAQ } from "../iFAQ.js";
 const faq: iFAQ = {
   seoTitle: 'Portland Property Buyers FAQ | Sell A House Fast In Portland',
   seoDescription:
-    'Answers to common questions about selling your house as-is and connecting with Portland-area investors through Portland Property Buyers.',
+    'Answers to common questions about selling your house as-is with Portland Property Buyers.',
   heading: 'Frequently Asked Questions',
   subHeading:
-    'What Portland-area homeowners usually want to know before exploring investor offers.',
+    'What Portland-area homeowners often want to know first.',
   intro:
-    'If you are comparing a direct sale with a traditional listing, these answers will help clarify how the process usually works.',
+    'These answers explain how the process usually works.',
   categories: [
     {
       title: 'Getting Started',
-      description: 'What happens after you first reach out.',
+      description: 'What happens after you contact us.',
       items: [
         {
           question: 'How do I request an offer?',
           answer:
-            'Send us the property address and a few details about the condition, timeline, and situation. We review the information and help connect you with local investors who may be a fit.',
+            'Send us the address and a few details about the house and your timeline. We review it and look for local buyers who may be a fit.',
         },
         {
           question: 'Do I have to clean or repair the house first?',
           answer:
-            'Usually no. Many investors prefer to evaluate the house as-is, even if it needs repairs, cleanup, or full renovation.',
+            'Usually no. Many buyers want to see the house as-is, even if it needs work.',
         },
         {
           question: 'How long can the process take?',
           answer:
-            'That depends on the property and buyer, but many direct sales can move from first contact to closing in as little as 7 to 21 days.',
+            'It depends on the home and buyer, but some sales can close in 7 to 21 days.',
         },
       ],
     },
     {
       title: 'Costs And Terms',
-      description: 'Questions about fees, commissions, and flexibility.',
+      description: 'Questions about fees and timing.',
       items: [
         {
           question: 'Do you charge commissions or hidden fees?',
           answer:
-            'No. There are no listing commissions for using our service, and you can review any offer directly before deciding whether it works for you.',
+            'No. There are no listing fees, and you can review any offer before you decide.',
         },
         {
           question: 'Can I choose my closing date?',
           answer:
-            'In many cases, yes. Investors often have flexibility, which can help if you need a fast close or extra time before moving.',
+            'In many cases, yes. Some buyers can work with your timeline.',
         },
       ],
     },
@@ -53,19 +53,19 @@ const faq: iFAQ = {
         {
           question: 'Do you work with inherited houses or probate properties?',
           answer:
-            'Yes. We regularly speak with families handling inherited homes and can help review investor options for those situations.',
+            'Yes. We often help families with inherited homes and probate situations.',
         },
         {
           question: 'Can you help if there are tenants, liens, or foreclosure pressure?',
           answer:
-            'Often, yes. We can discuss the property details and determine whether a local investor may still be interested.',
+            'Often, yes. We can talk about the details and see whether a local buyer may still be interested.',
         },
       ],
     },
   ],
   contactCtaHeading: 'Still Comparing Your Selling Options?',
   contactCtaSubHeading:
-    'Reach out and we will walk through your property, your timeline, and whether an investor sale makes sense.',
+    'Reach out and we will talk through your house, your timeline, and your options.',
   contactCtaButton: 'Contact Us',
 };
 

@@ -3,17 +3,17 @@ import type { iHome } from "../iHome.js";
 export const home: iHome = {
   seoTitle: 'Sell Your House Fast in Portland | Buy My House PDX',
   seoDescription:
-    'Connect with local Portland investors who buy houses as-is. Buy My House PDX helps homeowners compare direct cash-buying options without repairs, showings, or agent fees.',
+    'We help Portland homeowners connect with local cash buyers. Sell as-is with no repairs, showings, or agent fees.',
   offerButton: 'Get My Cash Offer',
   hero: {
     title: 'Sell Your Portland House Fast for Cash',
     subTitle:
-      'Skip repairs, commissions, and drawn-out closings. We connect Portland-area homeowners with local investors who buy houses in as-is condition.',
+      'Skip repairs, fees, and long wait times. We help Portland homeowners connect with local cash buyers.',
     badges: ['No Repairs Needed', 'No Agent Fees', 'Close On Your Timeline'],
     primaryCTA: 'Request My Offer',
-    formHeading: 'Get Your No-Obligation Cash Offer',
+    formHeading: 'Get Your Free Cash Offer',
     formSubHeading:
-      'Tell us about the property and we will connect you with local investors who may be a fit.',
+      'Tell us about your house. We will review it and reach out soon.',
     formButton: 'Get My Offer',
   },
   steps: {
@@ -22,17 +22,17 @@ export const home: iHome = {
       {
         stepTitle: 'Tell Us About The Property',
         description:
-          'Share the address and a few details about the house, situation, and timing.',
+          'Share the address and a few details about the house and your timeline.',
       },
       {
         stepTitle: 'Review Your Cash Offer',
         description:
-          'We review the property details and connect you with local investors who buy in your area.',
+          'We review the home and look for local buyers who may be a good fit.',
       },
       {
         stepTitle: 'Choose Your Closing Date',
         description:
-          'If an offer works for you, you can move forward directly with the investor on a timeline that fits.',
+          'If you like the offer, you choose a closing date that works for you.',
       },
     ],
     formButton: 'Start My Offer',
@@ -40,12 +40,12 @@ export const home: iHome = {
   reasons: {
     title: 'Why Portland Homeowners Work With Us',
     description:
-      'We help sellers who want local cash-buyer options without chasing down investors themselves.',
+      'We make it easier to find local cash buyers.',
     reasons: [
-      'Get connected with local investors who buy inherited, vacant, or distressed property',
-      'Avoid cleaning, repairs, and open houses before exploring offers',
-      'Find investor options for probate, tenants, foreclosure pressure, or major life changes',
-      'Save time by using one local connection point instead of contacting buyers one by one',
+      'Talk with local buyers who may want homes that are old, empty, or need work',
+      'Skip cleaning, repairs, and open houses',
+      'Get help with probate, tenants, foreclosure, or big life changes',
+      'Save time instead of calling buyers one by one',
     ],
     formButton: 'See My Options',
   },
@@ -53,22 +53,22 @@ export const home: iHome = {
     {
       title: 'Common Questions',
       description:
-        'Straight answers about how our Portland home-buying process works.',
+        'Simple answers about how it works.',
       faq: [
         {
           question: 'Do I need to make repairs before selling?',
           answer:
-            'No. Many local investors in our network buy houses as-is, including properties that need updates, cleanup, or major repairs.',
+            'No. Many local buyers will buy homes as-is, even if they need repairs or cleanup.',
         },
         {
           question: 'How quickly can you close?',
           answer:
-            'Many investors can close in as little as 7 to 14 days, though timing depends on the property and your situation.',
+            'Some buyers can close in 7 to 14 days. The timing depends on the home and your situation.',
         },
         {
           question: 'Are there commissions or hidden fees?',
           answer:
-            'No. There are no agent commissions for using our service, and you can review any offer directly before deciding.',
+            'No. There are no agent fees with our service, and you can review any offer before you decide.',
         },
       ],
       formButton: 'Get My Questions Answered',
@@ -77,11 +77,11 @@ export const home: iHome = {
   CTA: {
     heading: 'Ready To Sell Your Portland House?',
     subHeading:
-      'Share your property details and we will help connect you with local Portland investors.',
+      'Tell us about your house and we will help you find local buyers.',
     primaryCta: 'Request My Cash Offer',
-    formHeading: 'Start With A Few Property Details',
+    formHeading: 'Start With A Few House Details',
     formSubHeading:
-      'We will review the home and follow up with potential next steps quickly.',
+      'We will review the home and follow up soon.',
     formButton: 'Get Started',
   },
 };
